@@ -7,7 +7,8 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.bansach.R;
+
+import com.ktck124.lop124LTDD04.nhom08.R;
 
 import java.util.List;
 

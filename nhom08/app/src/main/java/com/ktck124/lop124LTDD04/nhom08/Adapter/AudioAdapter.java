@@ -12,9 +12,10 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.bansach.R;
-import com.example.bansach.model.Book;
-import com.example.bansach.model.Book1;
+import com.ktck124.lop124LTDD04.nhom08.R;
+import com.ktck124.lop124LTDD04.nhom08.model.Book;
+import com.ktck124.lop124LTDD04.nhom08.model.Book1;
+
 
 import java.util.List;
 
