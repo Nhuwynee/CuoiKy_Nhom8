@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                     int id = item.getItemId();
                     if (id == R.id.nav_featured) {
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container, new InfoFragment()).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container, new HomeFragment()).commit();
                     }
                     if (id == R.id.nav_feed) {
                         getSupportFragmentManager().beginTransaction().replace(R.id.container, new InfoFragment()).commit();
@@ -48,5 +48,4 @@ public class MainActivity extends AppCompatActivity {
                 }
 
             });
-        }
-}
+        }}
