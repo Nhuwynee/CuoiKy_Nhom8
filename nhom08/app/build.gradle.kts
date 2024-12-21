@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "com.ktck124.lop124LTDD04.nhom08"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -52,4 +52,6 @@ dependencies {
     implementation("com.github.bumptech.glide:glide:4.15.1")
     annotationProcessor("com.github.bumptech.glide:compiler:4.15.1")
     implementation ("com.squareup.okhttp3:logging-interceptor:4.9.2")
+    implementation ("com.github.tony19:logback-android:2.0.0")
+
 }
