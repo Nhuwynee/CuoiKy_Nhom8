@@ -14,6 +14,7 @@ import com.ktck124.lop124LTDD04.nhom08.model.Order_User;
 import com.ktck124.lop124LTDD04.nhom08.model.OtpRequest;
 import com.ktck124.lop124LTDD04.nhom08.model.User;
 
+
 import java.util.List;
 
 import retrofit2.Call;
@@ -90,11 +91,14 @@ public interface APIService {
     @GET("OTP.php")
     Call<Void> sendOtp();
 
-    @POST("verifyOtp.php")  // URL API xác nhận OTP
-    Call<String> verifyOtp(@Body OtpRequest otpRequest);
+
     @POST("update_password_api.php")
     Call<Void> updatePassword(@Body NewPassRequest newpass);
 
+    @POST("OTP.php")  // Đảm bảo đường dẫn này chính xác
+    Call<String> sendOtp(@Body OtpRequest request);
+    @POST("verifyOtp.php")  // URL API xác nhận OTP
+    Call<String> verifyOtp(@Body OtpRequest otpRequest);
 }
 
 

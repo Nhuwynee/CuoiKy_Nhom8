@@ -9,7 +9,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.ktck124.lop124LTDD04.nhom08.R;
 import com.ktck124.lop124LTDD04.nhom08.model.Book;
 import com.ktck124.lop124LTDD04.nhom08.model.Section;

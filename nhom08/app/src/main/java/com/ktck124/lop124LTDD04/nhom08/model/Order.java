@@ -15,6 +15,10 @@ public class Order {
     @SerializedName("pointOfOrder")
     private double pointOfOrder;
 
+    @SerializedName("orderCost")
+    private double orderCost;
+
+
     @SerializedName("orderStatus")
     private String orderStatus;
 
@@ -50,7 +54,10 @@ public class Order {
     public void setPointOfOrder(double pointOfOrder) {
         this.pointOfOrder = pointOfOrder;
     }
+    public void setOrderCost(double orderCost) {
+        this.orderCost = orderCost;
 
+    }
     public String getOrderStatus() {
         return orderStatus;
     }

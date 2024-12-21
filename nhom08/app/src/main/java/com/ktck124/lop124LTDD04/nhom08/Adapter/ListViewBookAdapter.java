@@ -9,6 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 import com.ktck124.lop124LTDD04.nhom08.R;
 import com.ktck124.lop124LTDD04.nhom08.model.Book;
 
@@ -82,9 +84,9 @@ public class ListViewBookAdapter extends RecyclerView.Adapter<ListViewBookAdapte
             bookTitle = itemView.findViewById(R.id.book_title);
             bookAuthor = itemView.findViewById(R.id.book_author);
             bookPrice = itemView.findViewById(R.id.book_price);
-//            bookStatus = itemView.findViewById(R.id.book_status);
-//            bookImage = itemView.findViewById(R.id.image_book);
-//            buttonDelete = itemView.findViewById(R.id.buttonDelete); // Thay đổi id theo layout của bạn
+            bookStatus = itemView.findViewById(R.id.book_status);
+            bookImage = itemView.findViewById(R.id.image_book);
+            buttonDelete = itemView.findViewById(R.id.buttonDelete); // Thay đổi id theo layout của bạn
 
         }
     }
