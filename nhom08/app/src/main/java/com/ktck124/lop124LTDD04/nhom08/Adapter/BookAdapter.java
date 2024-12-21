@@ -9,8 +9,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.bansach.R;
-import com.example.bansach.model.Book;
+
+import com.ktck124.lop124LTDD04.nhom08.R;
+import com.ktck124.lop124LTDD04.nhom08.model.Book;
 
 import java.util.List;
 
